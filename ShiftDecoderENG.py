@@ -12,7 +12,7 @@ for n in range(26):
             decode+=(chr(((ord(cipher[x])-96+n)%26)+97))
         elif ord(cipher[x]) in range(65,91):
             decode+=(chr(((ord(cipher[x])-64+n)%26)+65))
-        elif ord(cipher[x]) in range (32,33):
+        elif ord(cipher[x])==(32):
             checkword=d.check(decode)
             if checkword:
                 wordfound=("Found!")
