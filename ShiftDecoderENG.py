@@ -1,4 +1,4 @@
-# This will decode and attempt to identify english words in the decoded cipher.
+#Caesar Cipher (Shift) Decoder that attempts to identify the correct decoded cipher by checking for english words.
 
 import enchant
 d = enchant.Dict("en_US")
