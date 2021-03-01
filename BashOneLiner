@@ -1,1 +1,1 @@
-echo "Caesar Shift Cipher to Decode:"; read i; for n in $(seq 26); do echo $n ${i,,} | tr $(printf %${n}s | tr ' ' '.')\a-z a-za-z; done 
+echo "Caesar Shift Cipher to Decode:"; read i; for n in $(seq 26); do echo $n ${i,,} | tr $(printf %${n}s | tr ' ' '.')\a-z a-za-z; done
