@@ -1,4 +1,6 @@
 #Caesar Cipher (Shift) Decoder that attempts to identify the correct decoded cipher by checking for english words.
+#You will need to install pyenchant to use the dictionary
+#pip install pyenchant
 
 import enchant
 d = enchant.Dict("en_US")
